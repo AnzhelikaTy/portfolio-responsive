@@ -9,6 +9,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 40px;
@@ -33,7 +34,7 @@ p {
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.4;
   font-size: 24px;
   font-weight: 500;
   color: #272142;
@@ -68,8 +69,11 @@ p {
   border-radius: 5px;
 }
 
-img {
+.image-left-side {
   float: right !important;
+}
+.image-right-side {
+  float: left !important;
 }
 
 .project-description {
@@ -86,10 +90,16 @@ img {
     text-align: center;
   }
   h1 {
-    font-size: 68px;
+    font-size: 50px;
+  }
+  .hero {
+    padding: 80px 10px;
   }
   .hero p {
     font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 20px;
   }
   .intro {
     font-size: 20px;
