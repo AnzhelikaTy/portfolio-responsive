@@ -1,6 +1,10 @@
 h1,
 h2 {
   background-color: aquamarine;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 60px;
 }
 i {
   font-size: 40px;
