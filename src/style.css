@@ -63,7 +63,7 @@ nav li.active a {
 .hero {
   text-align: center;
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -126,12 +126,13 @@ nav li.active a {
   font-size: 22px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-container h1,
 .content h1 {
   font-size: 50px;
   line-height: 1.5;
+  color: var(--branding-color);
 }
 .content-container h2 {
   font-size: 18px;
@@ -208,9 +209,6 @@ footer .contact-box {
   }
   h1 {
     font-size: 50px;
-  }
-  .hero {
-    padding: 80px 10px;
   }
   .hero p {
     font-size: 32px;
