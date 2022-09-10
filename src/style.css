@@ -94,24 +94,32 @@ p {
   opacity: 0.9;
   font-size: 22px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content-container h1,
+.content h1 {
   font-size: 50px;
   line-height: 1.5;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section p {
+.content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
+}
+.content-container p {
   font-size: 20px;
 }
-.about-section .btn {
+.content-container .btn {
   background-color: var(--branding-color);
 }
-.about-section .btn:hover {
+.content-container .btn:hover {
   background-color: var(--secondary-color) !important;
   color: var(--branding-color) !important;
 }
@@ -137,13 +145,13 @@ p {
   .intro {
     font-size: 20px;
   }
-  .about-section {
+  .content-container {
     padding: 20px;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 35px;
   }
-  .about-section p {
+  .content-container p {
     font-size: 18px;
   }
 }
