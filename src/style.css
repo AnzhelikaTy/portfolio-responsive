@@ -11,12 +11,14 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
-h2 {
+h2,
+h4 {
   color: var(--branding-color);
   font-size: 40px;
   font-family: var(--heading-font-family);
   font-weight: 600;
 }
+
 p {
   color: var(--branding-color);
   font-family: var(--default-font-family);
@@ -155,14 +157,43 @@ nav li.active a {
 .content a {
   color: #24748f;
 }
-.contacts {
-  font-size: 40px;
-  background-color: var(--secondary-color);
-  padding-top: 30px;
-  padding-bottom: 50px;
+footer {
+  margin: 60px 0;
 }
-.follow i {
-  color: #24748f;
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: rgba(135, 32, 135, 0.686);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  font-size: 20px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 6px;
+}
+.contact-box h4 {
+  font-size: 30px;
+}
+.contact-box p {
+  font-size: 20px;
 }
 
 @media (max-width: 900px) {
