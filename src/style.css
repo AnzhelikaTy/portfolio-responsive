@@ -124,6 +124,16 @@ p {
   color: var(--branding-color) !important;
 }
 
+.contacts {
+  font-size: 40px;
+  background-color: var(--secondary-color);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.follow i {
+  color: #24748f;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
