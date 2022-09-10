@@ -95,10 +95,10 @@ p {
   font-size: 22px;
 }
 .about-section {
-  padding: 100px 20px;
+  padding: 160px 20px;
 }
 .about-section h1 {
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1.5;
 }
 .about-section h2 {
@@ -107,6 +107,12 @@ p {
 }
 .about-section p {
   font-size: 20px;
+}
+.about-section .btn {
+  background-color: var(--branding-color);
+}
+.about-section .btn:hover {
+  background-color: #16acc0 !important;
 }
 
 @media (max-width: 900px) {
