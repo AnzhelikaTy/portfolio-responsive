@@ -123,7 +123,9 @@ p {
   background-color: var(--secondary-color) !important;
   color: var(--branding-color) !important;
 }
-
+.content a {
+  color: #24748f;
+}
 .contacts {
   font-size: 40px;
   background-color: var(--secondary-color);
@@ -163,6 +165,9 @@ p {
   }
   .content-container p {
     font-size: 18px;
+  }
+  footer h2 {
+    font-size: 30px;
   }
 }
 
