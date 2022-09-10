@@ -112,7 +112,8 @@ p {
   background-color: var(--branding-color);
 }
 .about-section .btn:hover {
-  background-color: #16acc0 !important;
+  background-color: var(--secondary-color) !important;
+  color: var(--branding-color) !important;
 }
 
 @media (max-width: 900px) {
@@ -135,6 +136,15 @@ p {
   }
   .intro {
     font-size: 20px;
+  }
+  .about-section {
+    padding: 20px;
+  }
+  .about-section h1 {
+    font-size: 35px;
+  }
+  .about-section p {
+    font-size: 18px;
   }
 }
 
