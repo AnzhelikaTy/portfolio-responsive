@@ -196,7 +196,9 @@ footer .contact-box {
 .contact-box p {
   font-size: 20px;
 }
-
+.contact-box a .contact-me:hover {
+  background-color: #4d525d !important;
+}
 .github-main-link {
   font-size: 16px;
   font-family: "PT Mono", monospace;
