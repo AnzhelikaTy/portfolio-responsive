@@ -111,3 +111,9 @@ p {
     font-size: 20px;
   }
 }
+
+@media (max-width: 576px) {
+  .btn {
+    margin-top: 10px;
+  }
+}
