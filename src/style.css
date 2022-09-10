@@ -1,11 +1,11 @@
 :root {
   --branding-color: #3a4660;
-  --secondary-color: #a3cfdb;
+  --secondary-color: #f7e8f0;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 h1 {
-  color: white;
+  color: rgba(0, 0, 0, 0.813);
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
@@ -24,7 +24,9 @@ p {
   font-weight: 600;
   line-height: 32px;
 }
-
+.btn {
+  margin: 0px 15px;
+}
 .hero {
   text-align: center;
   background: var(--secondary-color);
