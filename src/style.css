@@ -196,6 +196,11 @@ footer .contact-box {
   font-size: 20px;
 }
 
+.github-main-link {
+  font-size: 16px;
+  font-family: "PT Mono", monospace;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
