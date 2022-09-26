@@ -8,16 +8,20 @@ h1 {
   color: rgba(0, 0, 0, 0.813);
   font-family: var(--heading-font-family);
   font-weight: bold;
-  font-size: 94px;
+  font-size: 80px;
   line-height: 1.5;
 }
 h2,
-h3,
 h4 {
   color: var(--branding-color);
   font-size: 40px;
   font-family: var(--heading-font-family);
   font-weight: 600;
+}
+h3 {
+  font-family: var(--default-font-family);
+  font-size: 30px;
+  color: var(--branding-color);
 }
 
 p {
@@ -26,6 +30,14 @@ p {
   font-size: 26px;
   font-weight: 600;
   line-height: 32px;
+}
+.skill {
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+.skill:hover {
+  transform: scale(1.1);
+  color: #0c580abe;
 }
 .logo {
   max-height: 60px;
@@ -63,8 +75,7 @@ nav li.active a {
 }
 .hero {
   text-align: center;
-  background: var(--secondary-color);
-  padding: 80px 20px;
+  padding: 50px 20px;
 }
 
 .hero p {
@@ -95,7 +106,7 @@ nav li.active a {
   font-weight: 600;
 }
 .btn-branding:hover {
-  background-color: #4d525d !important;
+  background-color: #0c580abe !important;
   color: white !important;
 }
 .btn-branding-outline {
