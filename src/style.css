@@ -39,6 +39,7 @@ p {
   transform: scale(1.1);
   color: #0c580abe;
 }
+
 .logo {
   max-height: 90px;
   margin-top: 5px;
@@ -259,7 +260,21 @@ footer .contact-box {
 }
 
 @media (max-width: 576px) {
+  .hero {
+    padding: 0 20px !important;
+  }
   .btn {
     margin-top: 10px;
+  }
+  .skill img {
+    width: 50px;
+  }
+  .skill {
+    font-size: 12px;
+  }
+  nav li {
+    line-height: 20px;
+    margin-left: 10px;
+    font-size: 10px;
   }
 }
