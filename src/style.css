@@ -263,6 +263,12 @@ footer .contact-box {
   .hero {
     padding: 0 20px !important;
   }
+  .hero p {
+    font-size: 20px;
+  }
+  .hero h1 {
+    font-size: 35px;
+  }
   .btn {
     margin-top: 10px;
   }
