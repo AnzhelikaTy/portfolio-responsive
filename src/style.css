@@ -239,9 +239,6 @@ footer .contact-box {
   .hero span {
     font-size: 20px;
   }
-  .intro {
-    font-size: 20px;
-  }
   .content-container {
     padding: 20px;
   }
@@ -282,5 +279,15 @@ footer .contact-box {
     line-height: 20px;
     margin-left: 10px;
     font-size: 10px;
+  }
+  .project-description h2 {
+    font-size: 25px;
+  }
+  .tools {
+    font-size: 20px;
+    opacity: 0.8;
+  }
+  .project-description .btn {
+    padding: 5px 15px;
   }
 }
