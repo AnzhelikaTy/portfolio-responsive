@@ -178,6 +178,12 @@ nav li.active a {
 .content a {
   color: #24748f;
 }
+.project {
+  transition: all 200ms ease-in-out;
+}
+.project:hover {
+  transform: scale(1.1);
+}
 footer {
   margin: 60px 0;
 }
@@ -248,6 +254,7 @@ footer .contact-box {
   .content-container p {
     font-size: 18px;
   }
+
   footer h2 {
     font-size: 30px;
   }
