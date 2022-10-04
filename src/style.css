@@ -297,4 +297,8 @@ footer .contact-box {
   .project-description .btn {
     padding: 5px 15px;
   }
+  .content-container h1 {
+    font-size: 26px;
+    border-bottom: 1px solid grey;
+  }
 }
