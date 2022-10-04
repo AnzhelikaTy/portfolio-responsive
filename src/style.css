@@ -150,9 +150,10 @@ nav li.active a {
 }
 .content-container h1,
 .content h1 {
-  font-size: 50px;
+  font-size: 38px;
   line-height: 1.5;
   color: var(--branding-color);
+  border-bottom: 1px solid #8080807e;
 }
 .content-container h2 {
   font-size: 18px;
@@ -249,13 +250,13 @@ footer .contact-box {
     padding: 20px;
   }
   .content-container h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
   .content-container h3 {
-    font-size: 35px;
+    font-size: 28px;
   }
   .content-container p {
-    font-size: 22px;
+    font-size: 20px;
   }
   .project {
     border-bottom: 1px solid #8080807e;
@@ -305,6 +306,12 @@ footer .contact-box {
   }
   .content-container h1 {
     font-size: 26px;
-    border-bottom: 1px solid grey;
+  }
+  .content-container h3 {
+    font-size: 22px;
+  }
+  .content-container p {
+    font-size: 18px;
+    opacity: 0.8;
   }
 }
